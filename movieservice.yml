@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+movie:
+  catalog-size: 100
+  language-support: ["English", "Hindi", "Telugu"]
+
+# spring:
+#   datasource:
+#     url: jdbc:mysql://localhost:3306/movie_db
+#     username: root
+#     password: rootpassword
+#   application:
+#     name: movieservice   #NotRequired it auto.. takes .yml file as app name
